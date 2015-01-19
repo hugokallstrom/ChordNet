@@ -1,0 +1,13 @@
+
+message AMessage {
+    	required string recipient = 1;
+        required string sender = 2;
+        required string topic = 3;
+        required string content = 4;
+        required string timeStamp = 5;
+		required string id = 6;
+}
+
+message MessageList {
+	repeated AMessage messages = 1; 
+}
